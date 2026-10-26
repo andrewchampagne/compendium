@@ -1,0 +1,28 @@
+node_modules/
+dist/
+backend/.venv/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# Local tools, editor preferences, and OS files
+.claude/
+.codex/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
+*.pem
+*.key
+
+# Stored PDF copies of imported files
+backend/data/
